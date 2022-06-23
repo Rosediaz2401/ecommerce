@@ -3,12 +3,16 @@ import Footer from "./pages/footer/Footer";
 
 const App = () => {
   return (
+<>
+    <div>
 
+    </div>
     <div className="maincontainer">
       <EcomScreen />
       <Footer />
     </div>
 
+</>
   );
 }
 

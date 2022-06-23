@@ -8,6 +8,8 @@ function Loading() {
         <div className='d-flex justify-content-center'>
             <div className='divHijo'>
                 <Spinner color="text-dark" className="spinner-grow" />
+                <Spinner color="text-dark" className="spinner-grow" />
+                <Spinner color="text-dark" className="spinner-grow" />
             </div>
         </div>
     )
