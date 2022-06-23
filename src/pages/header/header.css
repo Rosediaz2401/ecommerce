@@ -1,0 +1,42 @@
+.nav{
+    background-color: #880e4f;
+    width: 100%;
+    justify-content: center;
+    font-size: 21px;
+}
+.envio-title{
+    color: white;
+    margin-bottom: 0px;
+}
+.is-primary{
+    padding-top: 0px;
+}
+.logo-header{
+    border-radius: 50%;
+    align-self: flex-start;
+}
+.navbar-brand{
+    align-items: end;
+    background-color: #f7c1bb;
+    display: flex;
+    justify-content: center;
+    padding: 0 100rem;
+    height: 8rem;
+    margin-right: 0px;
+    width: 100%;
+    padding-top: 30px;
+    
+}
+.ai {
+    color: #880e4f;
+    font-size: x-large;
+    text-decoration: none;
+    padding: 10px;
+    align-self: baseline;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #fff;
+}

@@ -1,0 +1,59 @@
+ .main-input{
+    max-width: 100%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.main-input-container{
+    background-color: white;
+    display: flex;
+    width: 530px;
+    border-radius: 100px;
+    border:  1px solid #dfe1e5;
+    justify-content: center;
+    align-items: center;
+}
+.main-input input{
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+.main-input-container:hover{
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e500;
+}
+.main-input .search-icon{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWMRGLWMj8RZ7tgDaenALL2z9POt2xTTahCiArs2E6SfeqvlfgmJHm4dwOYHyL2QDCD40&usqp=CAU");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 23px;
+    height:23px;
+}
+.main-input .micro-icon{
+    background-image: url("https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/052018/untitled-1_63.png?VaW1bs_mipmverkoNocEJNL6BKTHYW.R&itok=ThO1Yh_H");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 23px;
+    height:23px;
+    cursor: pointer;
+}
+
+.micro-icon a{
+    text-decoration: none;
+}
+
+.navbar-brand{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 100rem;
+    height: 9rem;
+}
+.input-box{
+    align-self: flex-start;
+    align-self: flex-start;
+    margin: 8px 40px;
+
+}
