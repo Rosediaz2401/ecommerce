@@ -1,8 +1,10 @@
 import axios from "axios";
 import { useEffect, useState } from 'react';
+import { Boton } from "../component/boton/Boton";
 import Loading from "../component/Loading";
 import Header from "../header/Header";
 import "./EcomScreen.css";
+
 
 export const EcomScreen = () => {
 
@@ -15,9 +17,9 @@ export const EcomScreen = () => {
     const res = await axios.get('https://ecomerce-master.herokuapp.com/api/v1/item/')
     console.log('api', res.data);
     setproductos(res.data)
-      setloading(true)
+    setloading(true)
   }
-  
+
 
   useEffect(() => {
     getProductos();
@@ -28,21 +30,23 @@ export const EcomScreen = () => {
   return (
     <>
       <Header producto={producto} setproductos={setproductos} getdata={getProductos} />
-      {loading?loading : <Loading />}
+      {loading ? loading : <Loading />}
       {
-      
+
         producto.map((producto) => (
           < div className="parent app app-header">
-             
+
             <div className="child">
               <div className="card">
                 <img className="imagen" src={producto.image} alt={producto.product_name} />
                 <p> {`${producto.product_name} `}</p>
                 <p>{`Precio: $ ${producto.price} `}</p>
+                <Boton getdata1={getProductos} />
               </div>
             </div>
           </div>
         ))
+
       }
 
     </>

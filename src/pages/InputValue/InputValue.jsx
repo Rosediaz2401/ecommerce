@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from 'react'
-import Loading from '../component/Loading'
+import React, { useState } from 'react'
 import "./InputValue.css"
 
 // export default class InputValue extends Component 
