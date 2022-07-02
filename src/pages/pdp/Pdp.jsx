@@ -6,6 +6,7 @@ export const Pdp = () => {
         <>
             <div>Hola </div>
             <div>Hola </div>
+            <div>Hola </div>
         </>
     )
 }
